@@ -10,9 +10,9 @@ object Application {
 	  
 	 db filter ((s : String) => true)
 	 
-	 db select Person.getClass where('name is "Something") and('firstName is "Another") or('lastname is "Foobar") order('name by ASC)
+	 val results_1 = db select Person.getClass where('name is "Something") and('firstName is "Another") or('lastname is "Foobar") order('name by ASC)
 	 
-	 db select Person.getClass where('name ~ "Test") and('lastName <= 10) or('age === 10) order('name by ASC, 'foo by DESC)
+	 val results_2 = db select Person.getClass where('name ~ "Test") and('lastName <= 10) or('age := 10) order('name by ASC, 'foo by DESC)
 	 
 	 'symbol by ASC
 	 'name is 10
