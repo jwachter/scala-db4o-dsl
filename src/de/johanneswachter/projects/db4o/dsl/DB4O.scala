@@ -169,7 +169,7 @@ object DB4O {
 	trait QueryUtil {
 		def constrain(query : Query, constraint : DSLConstraint):Constraint={
 			// Match for different comparations to create the right query.
-			constraint.operator match {
+			val res = constraint.operator match {
 				case NOT_EQUALS => query.descend(constraint.symbol.name).constrain(constraint.bound).equal().not()
 				case EQUALS => query.descend(constraint.symbol.name).constrain(constraint.bound).equal
 				case SMALLER => query.descend(constraint.symbol.name).constrain(constraint.bound).smaller
@@ -181,6 +181,7 @@ object DB4O {
 				case LIKE => query.descend(constraint.symbol.name).constrain(constraint.bound).like
 				case _ => query.descend(constraint.symbol.name).constrain(constraint.bound).equal
 			}
+			res
 		}
 	}
 	
@@ -188,7 +189,7 @@ object DB4O {
 	case class DSLQuery[T](query : Query, clazz : Class[T]) extends QueryUtil{
 		// Define a where clause.
 		def where(constr : DSLConstraint):ExtendedDSLQuery[T]={
-			
+			constrain(query, constr)
 			// Return a re-wrapped Extended DSL Query
 			ExtendedDSLQuery(query)
 		}
@@ -199,7 +200,7 @@ object DB4O {
 		}
 		
 		def execute()={
-			query.execute
+			query.execute[T]
 		}
 	}
 	
@@ -229,7 +230,7 @@ object DB4O {
 		}
 		
 		def execute()={
-			query.execute
+			query.execute[T]
 		}
 	}
 	

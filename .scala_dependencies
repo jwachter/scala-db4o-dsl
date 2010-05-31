@@ -1,11 +1,17 @@
 D:\Projects\Code\scala-db4o-dsl\bin;D:\Development\Eclipse\Versions\eclipse\configuration\org.eclipse.osgi\bundles\199\1\.cp\lib\scala-library.jar;D:\Development\Eclipse\Versions\eclipse\configuration\org.eclipse.osgi\bundles\199\1\.cp\lib\scala-dbc.jar;D:\Development\Eclipse\Versions\eclipse\configuration\org.eclipse.osgi\bundles\199\1\.cp\lib\scala-swing.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\resources.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\rt.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\jsse.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\jce.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\charsets.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\ext\dnsns.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\ext\localedata.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\ext\sunjce_provider.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\ext\sunmscapi.jar;C:\Development\Java\jdk1.6.0_19\jre\lib\ext\sunpkcs11.jar;D:\Development\Libraries\Java\db4o\lib\db4o-7.12.145.14409-core-java5.jar
 -------
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\InitDB.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\InitDB.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\InitDB.scala
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala
-D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala
 -------
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\model\Person.class
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\model\Person$.class
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\InitDB.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\InitDB.class
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\InitDB.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\InitDB$.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\dsl\DB4O$BIGGER$.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\dsl\DB4O$ExtendedDSLQuery$.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\dsl\DB4O$$anon$1.class
@@ -37,8 +43,7 @@ D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.sc
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\dsl\DB4O$SMALLER$.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\dsl\DB4O$.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\dsl\DB4O.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\dsl\DB4O$EnhancedObjectSet.class
+D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\Application$$anonfun$main$2.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\Application$.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\Application$$anonfun$main$1.class
 D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\Application.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\Application.class
-D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\model\Person.class
-D:\Projects\Code\scala-db4o-dsl\src\de\johanneswachter\projects\db4o\model\Person.scala -> D:\Projects\Code\scala-db4o-dsl\bin\de\johanneswachter\projects\db4o\model\Person$.class
